@@ -2,7 +2,7 @@
  import Navbar from './Components/Navbar';
  import News from './Components/News';
  import {
-  BrowserRouter as Router,
+  HashRouterRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
