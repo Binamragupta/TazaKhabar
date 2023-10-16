@@ -1,0 +1,5 @@
+#root{
+    background: rgb(19,15,77);
+    background: radial-gradient(circle, rgba(19,15,77,1) 27%, rgba(20,18,50,1) 44%, rgba(66,101,152,1) 66%, rgba(26,50,87,1) 86%, rgba(9,28,56,1) 100%);
+    background: radial-gradient(circle, rgba(19,15,77,1) 27%, rgba(20,18,50,1) 44%, rgba(66,101,152,1) 66%, rgba(26,50,87,1) 86%, rgba(9,28,56,1) 100%);
+}

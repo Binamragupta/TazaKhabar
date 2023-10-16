@@ -32,9 +32,9 @@ export class NewsItem extends Component {
         {/* it is bootstrap element ,it is a card */}
         {/* i have passed mode to make changes in future to add dark mode */}
         <div className="card">{/* it was previously style ="width:18rem but was in such a way cause it was showing error so we changed it into javascript conatining object and that has an element width" */} 
-            <img src={imgUrl?imgUrl:"src/images.jpeg"} className="card-img-top" alt="..."/>
+            <img src={imgUrl?imgUrl:"./images.jpeg"} className="card-img-top" alt="..."/>
            {/*use ternay operator in image we deal with article with image url = null sow we give a specified image to those */}
-            <div className="card-body">
+            <div className="card-body text-white  bg-dark">
                 <h5 className="card-title">{title}...</h5>
                 <h5><span className="badge bg-secondary">{source}</span></h5>
                 <p className="card-text">{description}...</p>

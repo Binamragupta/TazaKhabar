@@ -120,7 +120,7 @@ export class News extends Component {
   render() {
     return (
       <>
-        <h1 className="text-center">Taza Khabar  -  Top  {this.capitalizeFirstLetter(this.props.category)} Headlines </h1>
+        <h1 className="text-center mt-4 text-white ">Taza Khabar  -  Top  {this.capitalizeFirstLetter(this.props.category)} Headlines </h1>
         {/*this.state.loading jab true hoga tab spinner dekhega,as spineer componenet humesha return karha so always true so woh display hoga ki nai depend loading true hoga ki nai */}
         {this.state.loading && <Spinner/>}
         

@@ -12,19 +12,29 @@ import React, { Component } from 'react'
 //we needed to give key to news component to do remount before doing this changes if we tried to change site by clicking on various link of navbar it only showed the same page and showed the page we want when we reloaded it
 export default class App extends Component {
   pageSize=6
+  // bgcolor="light"
+  // color="light"
   state={
-    progress:0
+    progress:0,
+    color:"light"
+    
   }
   setProgress=(progress)=>{
     this.setState({
       progress:progress
     })
   }
+  setcolor=(color)=>{
+    this.setState({
+      color:color
+    })
+  }
+ 
   render() {
     return (
       <div>
         <Router basename='/'>
-            <Navbar/>
+            <Navbar  color={this.setcolor}/>
             <LoadingBar
                 height={3}
                 color='#f11946'
